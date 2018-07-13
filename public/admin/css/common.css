@@ -1,0 +1,14 @@
+/* 这里面写了所有后端的样式 */
+
+.body_bg {
+  background-color: #222d32;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+  text-decoration: none;
+}
+.mt_150 {
+  margin-top: 150px;
+}
