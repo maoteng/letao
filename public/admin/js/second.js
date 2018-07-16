@@ -136,7 +136,8 @@ $(function () {
       success: function (info) {
         console.log(info);
         $("tbody").html(template("tpl", info));
-
+        
+        // 分页
         $("#paginator").bootstrapPaginator({
           bootstrapMajorVersion: 3,
           currentPage: page,
